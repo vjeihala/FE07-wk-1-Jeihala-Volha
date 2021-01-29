@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+.awesome{
+    width: 100%;
+}
+
+.awesome__container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+.awesome__header {
+    margin: auto;
+    }
+
+.awesome__title {
+    margin-top: 30px;
+    margin-bottom: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    text-align: center;
+    
+}
+
+.title {
+    padding-top: 70px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    line-height: 42px;
+    color: #212121;
+    }
+
+.line{
+    max-width: 64px;
+    margin: auto;
+    border: 1px solid #D98943;
+}    
+
+.awesome__text {
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    text-align: center;
+
+}
+.awesome__main {
+    display: flex;
+    justify-content: center;
+}
+.awesome__column {
+    display: inline-block;
+    margin: 0px 15px; 
+    width: 30%;
+    
+       
+}
+.awesome__icon {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0px auto;
+border-radius: 50%;
+width: 70px;
+height: 70px;
+border: 2px solid #D98943;
+
+}
+
+.text{
+    margin-top: 30px;
+    margin-bottom: 67px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    text-align: center;
+
+}
