@@ -1,0 +1,128 @@
+.pricing {
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.pricing__header {
+    margin: auto;
+}
+
+.pricing__title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 50px;
+    background-color: #333333;
+    text-align: center;
+    padding: 0px;
+}
+
+.title {
+    padding-top: 70px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #212121;
+    background-color: #E5E5E5;
+}
+
+.line {
+    max-width: 64px;
+    margin: auto;
+    border: 1px solid #D98943;
+}
+
+.pricing__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 34px;
+    margin-bottom: 64px;
+    color: #86878B;
+    text-align: center;
+}
+
+.pricing__columns {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 60px -100px 60px;
+    justify-content: space-between;
+}
+
+.pricing__column {
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+.pricing__price {
+    background-color: #333333;
+    color: #fff;
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+    line-height: 100px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.pricing__subtitle {
+    background-color: #333333;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 50px;
+}
+
+.menu {
+    color: #86878B;
+    line-height: 40px;
+    text-align: center;
+    background-color: #E5E5E5;
+}
+
+.list {
+    padding: 0px;
+    margin: 1px 0px 1px 0px;
+    background-color: #FFFFFF;
+    /* list-style-type: none; */
+}
+
+.name {
+    padding: 0px;
+    margin: 0px 0px 2px 0px;
+    text-align: center;
+}
+
+.name__price {
+    padding: 0px;
+    margin: 0px 0px 2px 0px;
+    text-align: center;
+}
+
+.name__subtitle {
+    padding: 0px;
+    margin: 0px 0px 2px 0px;
+    text-align: center;
+}
+
+.name__subtitle_2{
+    background-color: #D98943;
+    padding: 0px;
+    margin: 0px 0px 2px 0px;
+    text-align: center;
+}
