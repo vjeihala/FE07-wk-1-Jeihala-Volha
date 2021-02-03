@@ -1,3 +1,9 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0;
+}
+
 .pricing {
     width: 100%;
     background-color: #E5E5E5;
@@ -59,69 +65,62 @@
 .pricing__columns {
     display: flex;
     flex-direction: row;
-    margin: 0px 60px -100px 60px;
     justify-content: space-between;
+    margin: 0px -15px;
 }
 
 .pricing__column {
     width: 30%;
-    margin-bottom: 100px;
+    margin: 0px 15px;
 }
 
-.pricing__price {
-    background-color: #333333;
-    color: #fff;
-    margin-top: 0px;
+.pricing__item {
+    list-style-type: none;
     padding: 0px;
+    margin-bottom: 70px;
+}
+
+.pricing__item_title {
+    padding: 0px;
+    margin: 0px 0px 2px 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
     text-align: center;
-    line-height: 100px;
+    color: #FFFFFF;
+    background-color: #333333;
+}
+
+.pricing__item_price {
+    padding: 0px;
+    margin: 0px 0px 2px 0px;
+    text-align: center;
+    background-color: #333333;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
+    line-height: 41px;
     text-align: center;
+    color: #FFFFFF;
 }
 
-.pricing__subtitle {
+.pricing__item_subtitle {
     background-color: #333333;
     color: rgba(255, 255, 255, 0.5);
     line-height: 50px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0px 2px 0px;
+    text-align: center;
 }
 
-.menu {
-    color: #86878B;
+.pricing__item_list {
     line-height: 40px;
     text-align: center;
-    background-color: #E5E5E5;
-}
-
-.list {
-    padding: 0px;
-    margin: 1px 0px 1px 0px;
     background-color: #FFFFFF;
-    /* list-style-type: none; */
-}
-
-.name {
-    padding: 0px;
-    margin: 0px 0px 2px 0px;
-    text-align: center;
-}
-
-.name__price {
-    padding: 0px;
-    margin: 0px 0px 2px 0px;
-    text-align: center;
-}
-
-.name__subtitle {
-    padding: 0px;
-    margin: 0px 0px 2px 0px;
-    text-align: center;
-}
-
-.name__subtitle_2{
-    background-color: #D98943;
     padding: 0px;
     margin: 0px 0px 2px 0px;
     text-align: center;
