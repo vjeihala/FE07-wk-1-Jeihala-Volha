@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0;
+}
+
 .awesome {
     width: 100%;
 }
@@ -26,6 +33,8 @@
     text-align: center;
 }
 
+
+
 .headling {
     padding-top: 70px;
     font-family: Raleway;
@@ -36,10 +45,15 @@
     color: #212121;
 }
 
-.line {
-    max-width: 64px;
+.headling::after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
     margin: auto;
-    border: 1px solid #D98943;
+    margin-top: 34px;
+    margin-bottom: 34px;
 }
 
 .awesome__text {
@@ -50,6 +64,7 @@
     line-height: 19px;
     color: #000000;
     text-align: center;
+    margin-bottom: 115px;
 }
 
 .awesome__main {
@@ -74,6 +89,20 @@
     border: 2px solid #D98943;
 }
 
+.fa-lightbulb {
+    font-size: 30px;
+    color:#D98943;
+}
+
+.fa-keyboard {
+    font-size: 30px;
+    color:#D98943;
+}
+
+.fa-bolt {
+    font-size: 30px;
+    color:#D98943;
+}
 .text {
     margin-top: 30px;
     margin-bottom: 67px;

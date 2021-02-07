@@ -1,0 +1,105 @@
+.social {
+    background: #F8EFEF;
+}
+.social__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.social__info-title {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 14px;
+    text-align: left;
+    padding-top: 14px;
+}
+.social__info-text {
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+.social__links {
+    width: 50%;
+}
+.social__links-list {
+    font-size: 40px;
+    color: rgba(134, 135, 139, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social__links-list-item {
+    list-style-type: none;
+}
+.fa-facebook {
+    font-size: 35px;
+}
+.fa-facebook:hover {
+    font-size: 40px;
+    color: rgb(24, 94, 243);
+    transition-property: font-size, color;
+    transition-duration: 0.5s, 0.5s;
+}
+.fa-twitter {
+    font-size: 35px;
+}
+.fa-twitter:hover {
+    font-size: 40px;
+    color: lightskyblue;
+    transition-property: font-size, color;
+    transition-duration: 0.5s, 0.5s;
+}
+.fa-google-plus {
+    font-size: 35px;
+}
+.fa-google-plus:hover {
+    font-size: 40px;
+    color: rgb(230, 82, 45);
+    transition-property: font-size, color;
+    transition-duration: 0.5s, 0.5s;
+}
+.fa-pinterest {
+    font-size: 35px;
+}
+.fa-pinterest:hover {
+    font-size: 40px;
+    color: rgb(202, 33, 33);
+    transition-property: font-size, color;
+    transition-duration: 0.5s, 0.5s;
+}
+.fa-instagram-square {
+    font-size: 35px;
+}
+.fa-instagram-square:hover {
+    font-size: 40px;
+    transition-property: font-size, color;
+    transition-duration: 0.5s, 0.5s;
+    background: linear-gradient(to right, #f74c00, #8c23ff);
+}
+.fa-stumbleupon-circle {
+    font-size: 35px;
+}
+.fa-stumbleupon-circle:hover {
+    font-size: 40px;
+    color: rgb(250, 98, 60);
+    transition-property: font-size, color;
+    transition-duration: 0.5s, 0.5s;
+}
+.fa-wifi {
+    font-size: 35px;
+}
+.fa-wifi:hover {
+    font-size: 40px;
+    color: rgb(32, 187, 102);
+    transition-property: font-size, color;
+    transition-duration: 0.5s, 0.5s;
+}

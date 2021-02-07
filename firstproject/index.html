@@ -5,177 +5,312 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIRSTPROJECT</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/pricing_style.css" />
     <link rel="stylesheet" href="css/customer_style.css" />
     <link rel="stylesheet" href="css/axure_style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/header__style.css" />
+    <link rel="stylesheet" href="css/social__style.css" />
+    <link rel="stylesheet" href="css/style_contact.css" />
+    <link rel="stylesheet" href="css/footer_style.css" />
 </head>
 
 <body>
 
-    <section class="awesome">
-        <div class="container">
-            <div class="awesome__header">
-                <h2 class="awesome__title headling">WHY THIS IS AWESOME</h2>
-                <hr class="line">
-                </hr>
-                <p class="awesome__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <div class="logo">
+                        <a class="logo_link" href="#">
+                            <p class="logo__text">AX<span class="logo__text-color">IT</span></p>
+                        </a>
+                    </div>
+                    <div class="header__menu">
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__list-item"><a class="menu__link" href="#">feautures</a></li>
+                                <li class="menu__list-item"><a class="menu__link" href="#">about</a></li>
+                                <li class="menu__list-item"><a class="menu__link" href="#">pricing</a></li>
+                                <li class="menu__list-item"><a class="menu__link" href="#">reviews</a></li>
+                                <li class="menu__list-item"><a class="menu__link" href="#">contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
 
-            <div class="awesome__main">
-
-                <div class="awesome__column">
-                    <div class="awesome__icon">
-                        <img src="image/icons/1.png" alt="" />
-                    </div>
-                    <h3 class="awesome__title">Thoughtful Design</h3>
-                    <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
-                    </p>
-                </div>
-
-                <div class="awesome__column">
-                    <div class="awesome__icon">
-                        <img src="image/icons/2.png" alt="" />
-                    </div>
-                    <h3 class="awesome__title">Well Crafted</h3>
-                    <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
-                    </p>
-                </div>
-
-                <div class="awesome__column">
-                    <div class="awesome__icon">
-                        <img src="image/icons/3.png" alt="" />
-                    </div>
-                    <h3 class="awesome__title">Easy to Customize</h3>
-                    <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
-                    </p>
-                </div>
-
-            </div>
         </div>
-    </section>
-    <section class="pricing">
-        <div class="container">
-            <div class="pricing__header">
-                <h2 class="pricing__title title">pricing options</h2>
-                <hr class="line">
-                </hr>
-                <p class="pricing__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <!-- <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <div class="header__content-description">
+                        <div>
+                            <p class="header__content-logo">AX<span class="header__content-logo-color">IT</span></p>
+                        </div>
+                        <h2 class="header__content-intro">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
+                        <p class="header__content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque.
+                        </p>
+                        <a class="header__content-button">Download</a>
+
+                    </div>
+                    <div class="form">
+                        <div class="form__inner">
+                            <h3 class="form__inner-title">Try Your FREE Trial Today</h3>
+                            <div class="form__field-wrap"><label>
+                                    <input type="text" class="form-control" required autocomplete="off"
+                                        placeholder="Name" /></label>
+                            </div>
+
+                            <div class="form__field-wrap"><label>
+                                    <input type="email" class="form-control" required autocomplete="off"
+                                        placeholder="Email" /></label>
+                            </div>
+
+                            <div class="form__field-wrap"><label>
+                                    <input type="password" class="form-control" required autocomplete="off"
+                                        placeholder="Password" /></label>
+                            </div>
+
+                            <div><button type="submit" class="form__button">Get Started</button></div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </header>
+    <main>
+
+        <section class="social">
+            <div class="container">
+                <div class="social__inner">
+                    <div class="social__info">
+                        <h3 class="social__info-title">Social Media</h3>
+                        <p class="social__info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet.</p>
+                    </div>
+                    <div class="social__links">
+                        <ul class="social__links-list">
+                            <li class="social__links-list-item"><i class="fab fa-facebook"></i></li>
+                            <li class="social__links-list-item"><i class="fab fa-twitter"></i></li>
+                            <li class="social__links-list-item"><i class="fab fa-google-plus"></i></li>
+                            <li class="social__links-list-item"><i class="fab fa-pinterest"></i></li>
+                            <li class="social__links-list-item"><i class="fab fa-instagram-square"></i></li>
+                            <li class="social__links-list-item"><i class="fab fa-stumbleupon-circle"></i></li>
+                            <li class="social__links-list-item"><i class="fas fa-wifi"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="awesome">
+            <div class="container">
+                <div class="awesome__header">
+                    <h2 class="awesome__title headling">WHY THIS IS AWESOME</h2>
+                    <p class="awesome__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="awesome__main">
+
+                    <div class="awesome__column">
+                        <div class="awesome__icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 class="awesome__title">Thoughtful Design</h3>
+                        <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                            viverra.
+                        </p>
+                    </div>
+
+                    <div class="awesome__column">
+                        <div class="awesome__icon">
+                            <i class="far fa-keyboard"></i>
+                        </div>
+                        <h3 class="awesome__title">Well Crafted</h3>
+                        <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                            viverra.
+                        </p>
+                    </div>
+
+                    <div class="awesome__column">
+                        <div class="awesome__icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 class="awesome__title">Easy to Customize</h3>
+                        <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
+                            viverra.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="pricing">
+            <div class="container">
+                <div class="pricing__header">
+                    <h2 class="pricing__title title">pricing options</h2>
+                    <p class="pricing__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                </div>
+                <div class="pricing__columns">
+                    <div class="pricing__column">
+                        <ul class="pricing__item">
+                            <li class="pricing__item_title">Basic</li>
+                            <li class="pricing__item_price">$10</li>
+                            <li class="pricing__item_subtitle">Free for life</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                        </ul>
+
+                    </div>
+                    <div class="pricing__column">
+                        <ul class="pricing__item">
+                            <li class="pricing__item_title">Optima</li>
+                            <li class="pricing__item_price">$20</li>
+                            <li class="pricing__item_subtitle">Free for life</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                        </ul>
+
+                    </div>
+                    <div class="pricing__column">
+                        <ul class="pricing__item">
+                            <li class="pricing__item_title">Pro</li>
+                            <li class="pricing__item_price">$30</li>
+                            <li class="pricing__item_subtitle">Free for life</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                            <li class="pricing__item_list">1 gb of space</li>
+                        </ul>
+
+                    </div>
+
+                </div>
 
             </div>
-            <div class="pricing__columns">
-                <div class="pricing__column">
-                    <ul class="pricing__item">
-                        <li class="pricing__item_title">Basic</li>
-                        <li class="pricing__item_price">$10</li>
-                        <li class="pricing__item_subtitle">Free for life</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
+        </section>
+        <section class="customers">
+            <div class="container">
+                <h2 class="customers__title">what our customers are saying</h2>
+                <p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="customers__reviews">
+                    <div class="customers__reviews_item">
+                        <div class="review__item">
+                            <p class="review__item-text">Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique
+                                odio aspernatur ex, architecto eaque
+                                quo suscipit.</p>
+                        </div>
+                        <div class="customer__info">
+                            <div class="info__photo"><img class="photo" src="image/icons/avatar_2_u231@1X 3.png"></div>
+                            <div class="customer__info-items">
+                                <h3 class="customer__name">Jeremy H.</h3>
+                                <p class="customer__profession">Manager</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="customers__reviews_item">
+                        <div class="review__item">
+                            <p class="review__item-text">Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique
+                                odio aspernatur ex, architecto eaque
+                                quo suscipit.</p>
+                        </div>
+                        <div class="customer__info">
+                            <div class="info__photo"><img class="photo" src="image/icons/avatar_2_u231@1X 3.png"></div>
+                            <div class="customer__info-items">
+                                <h3 class="customer__name">Jeremy H.</h3>
+                                <p class="customer__profession">Manager</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="customers__reviews_item">
+                        <div class="review__item">
+                            <p class="review__item-text">Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Doloribus
+                                accusamus expedita repellat similique
+                                odio aspernatur ex, architecto eaque
+                                quo suscipit.</p>
+                        </div>
+                        <div class="customer__info">
+                            <div class="info__photo"><img class="photo" src="image/icons/avatar_2_u231@1X 3.png"></div>
+                            <div class="customer__info-items">
+                                <h3 class="customer__name">Jeremy H.</h3>
+                                <p class="customer__profession">Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="axure">
+            <div class="container">
+                <h2 class="axure__title">STYLISH AXURE DESIGN</h2>
+                <p class="axure__text">Use the sections you need, remove the ones you don't. Create gorgeous prototypes
+                    faster than ever!</p>
+                <a class="axure__button" href="#">Download</a>
+            </div>
+        </section>
+        <!-- <section class="contact">
+            <div class="container">
+                <h2 class="contact__title">contact us</h2>
+                <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        </section> -->
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div>
+                    <ul class="footer__icons">
+                        <li class="footer__icons-item"><i class="fab fa-facebook icon-footer"></i></li>
+                        <li class="footer__icons-item"><i class="fab fa-twitter icon-footer"></i></li>
+                        <li class="footer__icons-item"><i class="fab fa-google-plus icon-footer"></i></li>
+                        <li class="footer__icons-item"><i class="fab fa-pinterest icon-footer"></i></li>
+                        <li class="footer__icons-item"><i class="fab fa-instagram-square icon-footer"></i></li>
+                        <li class="footer__icons-item"><i class="fab fa-stumbleupon-circle icon-footer"></i></li>
+                        <li class="footer__icons-item"><i class="fas fa-wifi icon-footer"></i></li>
                     </ul>
-
                 </div>
-                <div class="pricing__column">
-                    <ul class="pricing__item">
-                        <li class="pricing__item_title">Optima</li>
-                        <li class="pricing__item_price">$20</li>
-                        <li class="pricing__item_subtitle">Free for life</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                    </ul>
-
-                </div>
-                <div class="pricing__column">
-                    <ul class="pricing__item">
-                        <li class="pricing__item_title">Pro</li>
-                        <li class="pricing__item_price">$30</li>
-                        <li class="pricing__item_subtitle">Free for life</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                        <li class="pricing__item_list">1 gb of space</li>
-                    </ul>
-
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-    <section class="customers">
-        <div class="container">
-            <h2 class="customers__title">what our customers are saying</h2>
-            <p class="customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="customers__reviews">
-                <div class="customers__reviews_item">
-                    <p class="customers__reviews_text">Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus
-                        accusamus expedita repellat similique
-                        odio aspernatur ex, architecto eaque
-                        quo suscipit.</p>
-                    <div class="customer__info">
-                        <img class="photo" src="image/icons/avatar_2_u231@1X 3.png">
-                        <h3 class="customer__name">Jeremy H.</h3>
-                        <p class="customer__profession">Manager</p>
-                    </div>
-                </div>
-
-
-                <div class="customers__reviews_item">
-                    <p class="customers__reviews_text">Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus
-                        accusamus expedita repellat similique
-                        odio aspernatur ex, architecto eaque
-                        quo suscipit.</p>
-                    <div class="customer__info">
-                        <img class="photo" src="image/icons/avatar_2_u231@1X 3.png">
-                        <h3 class="customer__name">Jeremy H.</h3>
-                        <p class="customer__profession">Manager</p>
-                    </div>
-                </div>
-
-                <div class="customers__reviews_item">
-                    <p class="customers__reviews_text">Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus
-                        accusamus expedita repellat similique
-                        odio aspernatur ex, architecto eaque
-                        quo suscipit.</p>
-                    <div class="customer__info">
-                        <img class="photo" src="image/icons/avatar_2_u231@1X 3.png">
-                        <h3 class="customer__name">Jeremy H.</h3>
-                        <p class="customer__profession">Manager</p>
-                    </div>
+                <div class="footer__copyright">
+                    <p class="footer__copyright-text">© 2015 Axure Themes</p>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="axure">
-        <div class="container">
-            <h2 class="axure__title">STYLISH AXURE DESIGN</h2>
-            <p class="axure__text">Use the sections you need, remove the ones you don't. Create gorgeous prototypes
-                faster than ever!</p>
-            <a class="axure__button" href="">Download</a>
-        </div>
-    </section>
+
+
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,36 @@
+.footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+.footer__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 30%;
+}
+
+.footer__icons-item {
+    color: white;
+    list-style-type: none;
+    font-size: 10px;
+}
+
+.footer__copyright-text {
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.icon-footer {
+    font-size: 20px;
+    color: whitesmoke;
+}
+.icon-footer:hover {
+    font-size: 25px;
+    transition-property: font-size; 
+    transition-duration: 0.5s, 0.5s;
+}
