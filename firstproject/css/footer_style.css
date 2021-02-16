@@ -9,14 +9,17 @@
     padding: 20px 30%;
 }
 
-.footer__icons-item {
+.icon-footer {
     color: white;
     list-style-type: none;
-    font-size: 10px;
+    font-size: 25px;
 }
-
+.footer__icons-item:hover {
+    transform: scale(1.3);
+    transition: all 0.3s;
+}
 .footer__copyright-text {
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.5);
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -25,12 +28,4 @@
     text-align: center;
     padding-bottom: 20px;
 }
-.icon-footer {
-    font-size: 20px;
-    color: whitesmoke;
-}
-.icon-footer:hover {
-    font-size: 25px;
-    transition-property: font-size; 
-    transition-duration: 0.5s, 0.5s;
-}
+

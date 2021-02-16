@@ -3,12 +3,6 @@
     background-color: #E5E5E5;
 }
 
-.container {
-    max-width: 1170px;
-    margin: auto;
-    padding: 0 15px;
-}
-
 .pricing__header {
     margin: auto;
 }
@@ -90,6 +84,7 @@
     text-align: center;
     color: #FFFFFF;
     background-color: #333333;
+    transition: 0.3s;
 }
 
 .pricing__item_title:hover {
@@ -109,6 +104,7 @@
     line-height: 85px;
     text-align: center;
     color: #FFFFFF;
+    transition: 0.3s;
 }
 
 .pricing__item_price:hover {
@@ -124,6 +120,7 @@
     padding: 0px;
     margin: 0px 0px 2px 0px;
     text-align: center;
+    transition: 0.3s;
 }
 
 .pricing__item_subtitle:hover {
@@ -138,6 +135,7 @@
     padding: 0px;
     margin: 0px 0px 2px 0px;
     text-align: center;
+    transition: 0.3s;
 }
 
 .pricing__item_list:hover {

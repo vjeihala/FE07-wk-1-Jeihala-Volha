@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
-
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: 0;
-}
-
-.awesome {
-    width: 100%;
 }
 
 .container {
@@ -17,100 +12,220 @@
     padding: 0 15px;
 }
 
-.awesome__header {
-    margin: auto;
+a {
+    text-decoration: none;
+    display: inline-block;
 }
 
-.awesome__title {
-    margin-top: 30px;
-    margin-bottom: 16px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-    color: #333333;
-    text-align: center;
+@media (max-width:1200px) {
+    .container {
+        max-width: 970px;
+    }
 }
 
-
-
-.headling {
-    padding-top: 70px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    text-align: center;
-    color: #212121;
+@media (max-width:992px) {
+    .container {
+        max-width: 750px;
+    }
+    .header__content-inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social__inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .social__links {
+        margin: auto;
+    }
 }
 
-.headling::after {
-    content: "";
-    display: block;
-    width: 64px;
-    height: 2px;
-    background-color: #E72424;
-    margin: auto;
-    margin-top: 34px;
-    margin-bottom: 34px;
+@media (max-width:767px) {
+    .container {
+        max-width: 576px;
+    }
+    .form {
+        margin-top: -50px;
+    }
+    .header__content-button {
+        margin-top: -20px;
+    }
+    .user-data {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .data {
+        padding-right: 0px;
+        width: 90%;
+    }
+    .message {
+        width: 90%;
+    }
+    .form-btn {
+        width: 100%;
+    }
+    .menu__box {
+        display: none;
+    }
+    .menu-open {
+        display: block;
+    }
+    .effect-inner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .effect-tabs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: -90px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .tabs-item__text {
+        padding: 20px 10px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .effect-title {
+        margin-bottom: 20px;
+    }
+    .effect-button {
+        margin-top: 35px;
+    }
+    .photo {
+        margin-top: 100px;
+    }
+    .headling {
+        padding: 10px;
+        font-size: 30px;
+    }
+    .awesome__main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .awesome__title {
+        margin-top: 30px;
+    }
+    .awesome__text {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .title {
+        padding: 10px;
+        font-size: 30px;
+    }
+    .pricing__columns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .pricing__column{
+        width: 45%;
+    }
+    .customers__title {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .customers__reviews {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .axure__title {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .contact__title {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .message {
+        padding-left: 0px;
+        margin-top: 20px;
+    }
 }
 
-.awesome__text {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #000000;
-    text-align: center;
-    margin-bottom: 115px;
-}
-
-.awesome__main {
-    display: flex;
-    justify-content: center;
-    margin: 0 -15px;
-}
-
-.awesome__column {
-    margin: 0px 15px;
-    width: 30%;
-}
-
-.awesome__icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px auto;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    border: 2px solid #D98943;
-}
-
-.fa-lightbulb {
-    font-size: 30px;
-    color:#D98943;
-}
-
-.fa-keyboard {
-    font-size: 30px;
-    color:#D98943;
-}
-
-.fa-bolt {
-    font-size: 30px;
-    color:#D98943;
-}
-.text {
-    margin-top: 30px;
-    margin-bottom: 67px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #86878B;
-    text-align: center;
+@media (max-width:576px) {
+    .container {
+        max-width: 100%;
+    }
+    .awesome__column {
+        width: 100%;
+    }
+    .social__links {
+        transform: scale(0.7, 0.7);
+        width: 90%;
+        margin: auto;
+    }
+    .tabs-item:first-child {
+        width: 70px;
+        height: 70px;
+        transition: all 0.2s;
+    }
+    .tabs-item:last-child {
+        width: 70px;
+        height: 70px;
+        transition: all 0.2s;
+    }
+    .tabs-item:nth-child(2) {
+        width: 70px;
+        height: 70px;
+        transition: all 0.2s;
+    }
+    .effect-image {
+        display: none;
+    }
+    .effect-title {
+        font-size: 15px;
+    }
+    .effect-text {
+        padding-left: 0px;
+    }
+    .text {
+        font-size: 10px;
+    }
+    .pricing__columns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing__column {
+        width: 80%;
+        
+    }
+    .pricing__text {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .pricing__item {
+        margin-bottom: 30px;
+    }
+    .menu__box {
+        display: none;
+    }
+    .menu-open {
+        display: block;
+    }
+    .header__menu {
+        width: auto;
+    }
+    .header__menu .show-menu {
+        right: 70px;
+        width: 50%;
+    }
+    .footer__icons {
+        padding: 0px;
+        padding-top: 5px;
+        transform: scale(0.7, 0.7);
+        width: 90%;
+        margin: auto;
+    }
+    .footer__copyright-text {
+        font-size: 10px;
+        margin-top: 10px;
+    }
 }

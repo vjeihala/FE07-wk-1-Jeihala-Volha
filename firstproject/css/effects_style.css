@@ -1,0 +1,109 @@
+.effects {
+    width: 100%;
+}
+
+.effect-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px -15px;
+    margin-top: 120px;
+}
+
+.effect-tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0px 15px;
+}
+
+.tabs-item {
+    width: 112px;
+    height: 112px;
+    background-color: #333333;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
+
+.tabs-item:first-child:hover {
+    content: '';
+    transform: scale(1.2, 1.2);
+    background-color: #EC7979;
+}
+.tabs-item:last-child:hover{
+    content:'';
+    transform: rotate(-360deg);
+  transition: all 0.5s;
+  background-color: #EC7979;
+}
+.tabs-item:nth-child(2):hover{
+    transform: rotate(30deg);
+    background-color: #EC7979;
+}
+
+
+.effect-text {
+    margin: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.effect-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+
+.text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #86878B;
+    text-align: left;
+}
+
+.tabs-item__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 45px 35px;
+}
+
+.effect-image {
+    margin: 0px 15px;
+}
+
+.effect-button {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 135px;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: #EC7979;
+    margin-top: 80px;
+}

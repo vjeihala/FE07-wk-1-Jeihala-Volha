@@ -1,0 +1,100 @@
+.awesome {
+    width: 100%;
+}
+
+.awesome__header {
+    margin: auto;
+}
+
+.awesome__title {
+    margin-bottom: 16px;
+    margin-top: 80px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    text-align: center;
+}
+
+.headling {
+    padding-top: 70px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    color: #212121;
+}
+
+.headling::after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.awesome__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 115px;
+}
+
+.awesome__main {
+    display: flex;
+    justify-content: center;
+    margin: 0 -15px;
+}
+
+.awesome__column {
+    margin: 0px 15px;
+    width: 30%;
+}
+
+.awesome__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #D98943;
+}
+
+.fa-lightbulb {
+    font-size: 30px;
+    color: #D98943;
+}
+
+.fa-keyboard {
+    font-size: 30px;
+    color: #D98943;
+}
+
+.fa-bolt {
+    font-size: 30px;
+    color: #D98943;
+}
+
+.awesome__text {
+    margin-top: 30px;
+    margin-bottom: 67px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    text-align: center;
+}

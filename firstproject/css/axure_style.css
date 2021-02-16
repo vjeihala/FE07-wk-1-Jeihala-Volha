@@ -78,4 +78,12 @@
     position: relative;
     bottom: 38px;
     margin: auto;
+    transition: all 0.5s;
+    }
+
+.axure__button:hover {
+    content: '';
+    background-color: rgba(7, 0, 0, 0.87);
+    border: none;
+
 }
