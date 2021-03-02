@@ -1,0 +1,98 @@
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    &.fixed {
+        height: auto;
+        position: fixed;
+        background-color: #31344e;
+    }
+    &.fixed .header__inner {
+        padding: 15px 0;
+        border-bottom: 0;
+    }
+
+    .header__inner {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #515369;
+        padding: 35px 0px;
+        align-items: center;
+
+        .burger__item {
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: #fff;
+            font-size: 0;
+            color: transparent;
+            position: relative;
+            &:before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: -8px;
+                left: 0;
+                z-index: 1;
+                background-color: white;
+            }
+            &:after {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                bottom: -8px;
+                left: 0;
+                z-index: 1;
+                background-color: white;
+            }
+        }
+        .burger {
+            display: none;
+            @media (max-width: 991px) {
+                display: block;
+            }
+        }
+    }
+}
+
+.nav {
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    display: flex;
+    @media (max-width: 991px) {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: right;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        background-color: #31344e;
+        &.show{
+            display: flex;
+        }
+    }
+    .nav__menu {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        opacity: 0.75;
+        &:hover {
+            opacity: 1;
+        }
+        transition: opacity 0.1s linear;
+        margin-left: 50px;
+        &:first-child {
+            margin-left: 0px;
+        }
+        @media (max-width: 991px) {
+            padding: 9px 15px;
+        }
+    }
+}

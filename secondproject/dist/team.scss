@@ -1,0 +1,73 @@
+.team__inner {
+    margin: 90px 0px 95px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    @media (max-width: 767px) {
+       margin: 40px 0 40px 0;
+        
+    }
+}
+.team__item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    width: 25%;
+    @media (max-width: 991px) {
+        width: 50%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    @media (max-width: 767px) {
+        width: 100%;
+        
+    }
+
+    .avatar {
+        margin-bottom: 25px;
+        @media (max-width: 991px) {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .team__name {
+        font-size: 22px;
+        font-family: "Raleway", sans-serif;
+        font-weight: normal;
+        color: #2d3033;
+        margin-bottom: 15px;
+    }
+    .team__position {
+        color: #e84545;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-family: "Raleway", sans-serif;
+        margin-bottom: 25px;
+    }
+    .team__text {
+        color: #6c7279;
+        font-size: 14px;
+        font-family: "Raleway", sans-serif;
+        font-weight: normal;
+        line-height: 21px;
+        margin-bottom: 30px;
+    }
+
+    .social {
+        display: flex;
+        @media (max-width: 991px){
+            justify-content: center;
+        }
+    }
+    .social__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #c6cacc;
+        margin-right: 4px;
+        text-decoration: none;
+    }
+}
