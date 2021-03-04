@@ -36,19 +36,22 @@ a {
         flex-wrap: wrap;
     }
     .social__links {
-        margin: auto;
+        width: 75%;
+    }
+    .form {
+        padding-top: 40px;
+    }
+    .awesome__title.headling {
+        padding: 0px;
+    }
+    .customers__reviews {
+        margin-bottom: 40px;
     }
 }
 
 @media (max-width:767px) {
     .container {
         max-width: 576px;
-    }
-    .form {
-        margin-top: -50px;
-    }
-    .header__content-button {
-        margin-top: -20px;
     }
     .user-data {
         display: flex;
@@ -71,6 +74,7 @@ a {
     }
     .menu-open {
         display: block;
+        
     }
     .effect-inner {
         display: flex;
@@ -103,16 +107,20 @@ a {
         padding: 10px;
         font-size: 30px;
     }
-    .awesome__main {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    
     .awesome__title {
         margin-top: 30px;
     }
-    .awesome__text {
-        margin-top: 0px;
+    
+    .awesome__text{
         margin-bottom: 30px;
+
+    }
+    .awesome-title{
+        font-size: 16px;
+    }
+    .awesome__main{
+        margin-bottom: 40px;
     }
     .title {
         padding: 10px;
@@ -123,18 +131,14 @@ a {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .pricing__column{
+    .pricing__column {
         width: 45%;
     }
     .customers__title {
         font-size: 30px;
         margin-top: 30px;
     }
-    .customers__reviews {
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 10px;
-    }
+    
     .axure__title {
         font-size: 30px;
         padding-top: 30px;
@@ -144,6 +148,7 @@ a {
         padding-top: 30px;
     }
     .message {
+        
         padding-left: 0px;
         margin-top: 20px;
     }
@@ -153,10 +158,17 @@ a {
     .container {
         max-width: 100%;
     }
+    .header__content-description{
+        padding-top: 160px;
+    }
     .awesome__column {
         width: 100%;
     }
-    .social__links {
+    .awesome__main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .social__links {
         transform: scale(0.7, 0.7);
         width: 90%;
         margin: auto;
@@ -195,7 +207,6 @@ a {
     }
     .pricing__column {
         width: 80%;
-        
     }
     .pricing__text {
         margin-top: 0px;
@@ -209,6 +220,7 @@ a {
     }
     .menu-open {
         display: block;
+        margin-left: auto;
     }
     .header__menu {
         width: auto;
@@ -221,11 +233,16 @@ a {
         padding: 0px;
         padding-top: 5px;
         transform: scale(0.7, 0.7);
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     .footer__copyright-text {
         font-size: 10px;
         margin-top: 10px;
+    }
+    .customers__reviews {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
     }
 }

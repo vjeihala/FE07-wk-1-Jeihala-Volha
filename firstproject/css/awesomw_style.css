@@ -3,17 +3,17 @@
 }
 
 .awesome__header {
-    margin: auto;
+    margin-top: 60px;
+
 }
 
-.awesome__title {
+.awesome-title {
     margin-bottom: 16px;
-    margin-top: 80px;
+    margin-top: 30px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 27px;
     color: #333333;
     text-align: center;
 }
@@ -47,13 +47,14 @@
     line-height: 19px;
     color: #000000;
     text-align: center;
-    margin-bottom: 115px;
+   
 }
 
 .awesome__main {
     display: flex;
     justify-content: center;
     margin: 0 -15px;
+    margin-bottom: 100px;
 }
 
 .awesome__column {
@@ -87,7 +88,7 @@
     color: #D98943;
 }
 
-.awesome__text {
+.awesome__sutitle {
     margin-top: 30px;
     margin-bottom: 67px;
     font-family: Open Sans;

@@ -21,18 +21,18 @@
     <link rel="stylesheet" href="css/customer_style.css" />
     <link rel="stylesheet" href="css/axure_style.css" />
     <link rel="stylesheet" href="css/header__style.css" />
+    <link rel="stylesheet" href="css/header__content.css" />
     <link rel="stylesheet" href="css/social__style.css" />
     <link rel="stylesheet" href="css/style_contact.css" />
     <link rel="stylesheet" href="css/footer_style.css" />
     <link rel="stylesheet" href="css/effects_style.css" />
     <link rel="stylesheet" href="css/style.css" />
-    
+
 </head>
 
 <body>
 
     <header class="header">
-
         <div class="container">
             <div class="header__top-inner">
                 <div class="logo">
@@ -48,11 +48,11 @@
                             <li><a class="menu__item" href="#">pricing</a></li>
                             <li><a class="menu__item" href="#">reviews</a></li>
                             <li><a class="menu__item" href="#">contact</a></li>
-                         </ul>
-                                             
+                        </ul>
+
                     </nav>
                     <a class="menu-open" href="#">
-                        <img  src="image/img/menu_open.svg" alt="Open menu">
+                        <img src="image/img/menu_open.svg" alt="Open menu">
                     </a>
                 </div>
             </div>
@@ -62,14 +62,14 @@
 
     </header>
 
-    <div class="header__content">
+    <section class="header__content">
         <div class="container">
             <div class="header__content-inner">
                 <div class="header__content-description">
                     <div>
                         <p class="header__content-logo">AX<span class="header__content-logo-color">IT</span></p>
                     </div>
-                    <h2 class="header__content-intro">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
+                    <h1 class="header__content-intro">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
                     <p class="header__content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque.
                     </p>
                     <a class="header__content-button">Download</a>
@@ -77,31 +77,31 @@
                 </div>
                 <div class="form">
                     <form action="#" method="POST" class="form-small">
-                        <h2 class="form-text">Try Your<span class="form-text-color"> FREE </span>Trial Today</h2>
-                        <div class="form-small__content">
-                            <div class="form-item">
-                                <label for="name" class="label-title">Name</label>
-                                <input type="text" class="form__contact" id="name" name="name">
-                            </div>
+                        <h3 class="form-text">Try Your<span class="form-text-color"> FREE </span>Trial Today</h3>
 
-                            <div class="form-item">
-                                <label for="email" class="label-title">E-mail</label>
-                                <input type="email" class="form__contact" required value="" name="email">
-                            </div>
-
-
-                            <div class="form-item">
-                                <label for="password" class="label-title">Password</label>
-                                <input type="password" class="form__contact" id="password" name="password">
-                            </div>
+                        <div class="form-item">
+                            <label for="name" class="label-title">Name</label>
+                            <input type="text" class="form__contact" id="name" name="name">
                         </div>
+
+                        <div class="form-item">
+                            <label for="email" class="label-title">E-mail</label>
+                            <input type="email" class="form__contact" required value="" name="email">
+                        </div>
+
+
+                        <div class="form-item">
+                            <label for="password" class="label-title">Password</label>
+                            <input type="password" class="form__contact-password" id="password" name="password">
+                        </div>
+
 
                         <button type="submit" id="submit" name="submit" class="form-button">Get Started</button>
                     </form>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <main>
 
@@ -164,7 +164,7 @@
             <div class="container">
                 <div class="awesome__header">
                     <h2 class="awesome__title headling">WHY THIS IS AWESOME</h2>
-                    <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="awesome__sutitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
 
                 <div class="awesome__main">
@@ -173,7 +173,7 @@
                         <div class="awesome__icon">
                             <i class="fas fa-lightbulb"></i>
                         </div>
-                        <h3 class="awesome__title">Thoughtful Design</h3>
+                        <h3 class="awesome-title">Thoughtful Design</h3>
                         <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                             viverra.
@@ -184,7 +184,7 @@
                         <div class="awesome__icon">
                             <i class="far fa-keyboard"></i>
                         </div>
-                        <h3 class="awesome__title">Well Crafted</h3>
+                        <h3 class="awesome-title">Well Crafted</h3>
                         <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                             viverra.
@@ -195,7 +195,7 @@
                         <div class="awesome__icon">
                             <i class="fas fa-bolt"></i>
                         </div>
-                        <h3 class="awesome__title">Easy to Customize</h3>
+                        <h3 class="awesome-title">Easy to Customize</h3>
                         <p class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et
                             viverra.
@@ -330,38 +330,40 @@
                 <a class="axure__button" href="#">Download</a>
             </div>
         </section>
-        <section class="contact">
+         <section class="contact"> 
             <div class="container">
-                <h2 class="contact__title">contact us</h2>
-                <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <form action="#" method="POST" id="contact-us">
-                    <div class="container">
-                        <div class="user-data">
-                            <div class="data">
-
+                <div class="contact__header">
+                    <h2 class="contact__title">contact us</h2>
+                    <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <form action="#" method="POST" class="contact-us">
+                    <div class="user-data">
+                        <div class="data">
+                            <div class="contact__name">
                                 <label for="name" class="form-title">Name</label>
-                                <input type="text" class="form__contact" id="name" name="name">
-
+                                <input type="text" class="contact__form" id="name" name="name">
+                            </div>
+                            <div class="contact__email">
                                 <label for="email" class="form-title">E-mail</label>
-                                <input type="email" class="form__contact" required value="" name="email">
-
+                                <input type="email" class="contact__form" required value="" name="email" id="email">
+                            </div>
+                            <div class="contact__password">
                                 <label for="password" class="form-title">Password</label>
-                                <input type="password" class="form__contact" id="password" name="password">
-                            </div>
-
-                            <div class="message">
-                                <label for="message" class="form-title">Message</label>
-                                <textarea name="message" class="form__contact textarea"></textarea>
+                                <input type="password" class="contact__form" id="password-contact" name="password">
                             </div>
                         </div>
-                        <div>
 
-                            <button type="submit" id="submit" name="submit" class="form-btn">Send Message</button>
+                        <div class="message">
+                            <label for="message" class="form-title">Message</label>
+                            <textarea name="message" class="message__contact"></textarea>
                         </div>
-
+                     </div>
+                     <div class="contact__button">
+                        <button type="submit" id="submit" name="submit" class="form-btn">Send Message</button>
+                    </div>
                 </form>
-
-        </section>
+            </div>
+        </section>       
     </main>
     <footer class="footer">
         <div class="container">
@@ -388,7 +390,7 @@
 
 
     </footer>
-    
+
 </body>
 
 </html>

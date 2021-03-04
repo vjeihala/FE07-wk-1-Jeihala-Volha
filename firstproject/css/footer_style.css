@@ -6,12 +6,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 20px 30%;
+    padding: 20px 20%;
+    list-style: none;
 }
 
 .icon-footer {
     color: white;
-    list-style-type: none;
     font-size: 25px;
 }
 .footer__icons-item:hover {
